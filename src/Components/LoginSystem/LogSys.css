@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Ubuntu:wght@700&display=swap');
+form {
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+}
+.login-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.img-fluid {
+    width: 50%;
+    height: 70%;
+    margin-right: 5rem;
+}
+.login-form {
+    margin-left: 5rem;
+    width: 420px;
+    height: 520px;
+    box-shadow: rgb(0, 0, 0 / 16%) 1px 1px 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid rgb(34, 34, 34);
+}
+.login-form-content {
+    padding-left: 20%;
+    padding-right: 12%;
+}
+h3 {
+    text-align: center;
+    font-family: 'lato', monospace;
+    font-weight: bold;
+}
+.text-center {
+    margin-top: 3rem;
+}
+.link-primary {
+    cursor: pointer;
+}
+.login-form-title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: rgb(34, 34, 34);
+    font-weight: 800;
+}
+label {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+}
